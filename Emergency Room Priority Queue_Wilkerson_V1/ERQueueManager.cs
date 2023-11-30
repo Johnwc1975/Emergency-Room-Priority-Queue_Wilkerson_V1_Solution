@@ -18,8 +18,9 @@ public class ERQueueManager
         // Check if the specified file exists. If not, display a message and return.
         if (!File.Exists(filePath))
         {
-            Console.WriteLine("File not found. Please ensure the file path is correct.");
-            return;
+            Console.WriteLine("The file path is correct.");
+  Console.WriteLine("Emergency Room Priority Queue");
+  return;
         }
 
         try
